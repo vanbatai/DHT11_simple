@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include <DHT_TAI.h>
+#include <DHT11.h>
 
 uint8_t DHT_read(uint8_t _pin, float *humi, float *tem)
 {
